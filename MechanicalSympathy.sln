@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WriteCombining", "WriteCombining", "{DB6FDBEF-EEF7-496C-99CC-B555B3F22192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteCombining", "WriteCombining\WriteCombining.csproj", "{4C6F2C59-3EEC-458D-9DD6-227C7101B0A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C6F2C59-3EEC-458D-9DD6-227C7101B0A2} = {DB6FDBEF-EEF7-496C-99CC-B555B3F22192}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C6F2C59-3EEC-458D-9DD6-227C7101B0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6F2C59-3EEC-458D-9DD6-227C7101B0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6F2C59-3EEC-458D-9DD6-227C7101B0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6F2C59-3EEC-458D-9DD6-227C7101B0A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
